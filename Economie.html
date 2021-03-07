@@ -1,0 +1,599 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!-- Feuille de style des pictos -->
+	<!--link rel="stylesheet" type="text/css" media="screen" href="squelettes/files/css/font-awesome.min.css" /-->
+	<!-- Feuille de style du header -->
+	<link rel="stylesheet" type="text/css" media="screen" href="squelettes/files/css/header.css" />
+	<!-- Feuille de style de la recherche -->
+	<link rel="stylesheet" type="text/css" media="screen" href="squelettes/files/css/recherche.css" />
+	<!-- Feuille de style du menu -->
+	<link rel="stylesheet" type="text/css" media="screen" href="squelettes/files/css/menu.css" />
+	<!-- Feuille de style du slider -->
+	<link rel="stylesheet" type="text/css" media="screen" href="squelettes/files/css/slider-slick.css" />
+	<!-- Feuille de style du footer -->
+	<link rel="stylesheet" type="text/css" media="screen" href="squelettes/files/css/footer.css" />
+	<!-- Feuille de style de base -->
+	<link rel="stylesheet" type="text/css" media="screen" href="squelettes/files/css/base.css" />
+	<!-- Feuille de style du rss -->
+	<link rel="stylesheet" type="text/css" media="screen" href="squelettes/files/css/rss.css" />
+	<!-- Feuille de style de impression -->
+	<link rel="stylesheet" type="text/css" media="print" href="squelettes/files/css/print.css" />
+	<!-- Feuille de style de police OpenSans -->
+	<link rel="stylesheet" type="text/css" href="squelettes/files/css/opensansfont.css" />
+	
+<!-- insert_head_css --><script src="prive/javascript/jquery.js?1613730554" type="text/javascript"></script>
+
+<script src="prive/javascript/jquery-migrate-3.0.1.js?1613730554" type="text/javascript"></script>
+
+<script src="prive/javascript/jquery.form.js?1613730554" type="text/javascript"></script>
+
+<script src="prive/javascript/jquery.autosave.js?1613730554" type="text/javascript"></script>
+
+<script src="prive/javascript/jquery.placeholder-label.js?1613730554" type="text/javascript"></script>
+
+<script src="prive/javascript/ajaxCallback.js?1613730554" type="text/javascript"></script>
+
+<script src="prive/javascript/js.cookie.js?1613730554" type="text/javascript"></script>
+
+<script src="prive/javascript/jquery.cookie.js?1613730554" type="text/javascript"></script>
+<!-- insert_head -->
+	<script type="text/javascript" src="squelettes/files/js/bxSlider/jquery.bxslider.min.js"></script>
+	<script type="text/javascript" src="squelettes/files/js/slick/slick.min.js"></script>
+	<script type="text/javascript" src="squelettes/files/js/slick/jquery.slick.customPager.min.js"></script>
+	<script type="text/javascript" src="squelettes/files/js/main.js"></script>
+	<!--<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" /> -->
+	<!--[if IE 6]><link rel="stylesheet" type="text/css" media="screen" href="" /><![endif]-->
+	<!--[if lte IE 8]>
+	<link rel="stylesheet" type="text/css" media="screen" href="squelettes//files/css/menu-ie.css" />
+	<![endif]-->	<title>Site non-officiel du Rassemblment National</title>
+	<meta name="description" content="Site non-officiel du Rassemblment National, actualité, réseau, projet, France." />
+	<link rel="stylesheet" type="text/css" media="screen" href="squelettes/files/css/home.css" />
+</head>
+<body>
+	<div id="header"> 
+	<div class="logo">
+		<a href="Accueil.html"><img class='spip_logo spip_logos' alt='Logo du Conseil d&#233;partemental du Cher' src="local/img/RN.png" width='152' height='95' /></a>
+	</div>
+	<div id="description_site">
+		<span style='text-transform: uppercase;'>Le Rassemblment National, une grande famille.</span>
+	</div>
+	<div id="social-container">
+
+
+		
+				<p><span class='spip_document_10 spip_documents'>
+<a href="#" class="spip_out"><img src='IMG/ico-d.png' width="32" height="32" alt="Lien vers la chaine Dailymotion" title="Lien vers la chaine Dailymotion" /></a></span><span class='spip_document_11 spip_documents'>
+<a href="#" class="spip_out"><img src='IMG/ico-fb.png' width="32" height="32" alt="Lien vers la page Facebook" title="Lien vers la page Facebook" /></a></span><span class='spip_document_1540 spip_documents'>
+<a href="#" class="spip_out"><img src='IMG/instagram-brands.png' width="32" height="32" alt="Lien vers la page Instagram" title="Lien vers la page Instagram" /></a></span><span class='spip_document_1390 spip_documents'>
+<a href="#" class="spip_out"><img src='IMG/ico-l.png' width="32" height="32" alt="Lien vers la page LinkedIn" title="Lien vers la page LinkedIn" /></a></span><span class='spip_document_12 spip_documents'>
+<a href="#" class="spip_out"><img src='IMG/ico-tw.png' width="32" height="32" alt="Lien vers le fil d'actualit&#233; Twitter" title="Lien vers le fil d'actualit&#233; Twitter" /></a></span><span class='spip_document_13 spip_documents'>
+
+		
+
+	</div>
+	<div id="search">
+		<div id="search-icon" onclick="">
+
+		</div>
+		<div id="search-bar">
+			<div id="formulaire_control"><span class="close cl-search"></span></div>
+<div class="formulaire_spip formulaire_recherche" id="formulaire_recherche">
+<form action="spip.php?page=recherche" method="get"><div class="editer-groupe">
+	<input name="page" value="recherche" type="hidden"
+/>
+	
+	<label for="recherche">Que cherchez-vous ?</label><br /> 
+	<input type="search" class="search text" size="10" name="recherche" id="recherche" accesskey="4" autocomplete="off" autofocus />
+</div></form>
+</div>
+<script>
+$(document).on('click', '.cl-search', function()
+{
+	$('#search-bar').removeClass('show');
+	$('#search-bar').addClass('hide');
+});
+</script>		</div>
+	</div>
+
+
+	<div id="menu">
+		<div id="title-bar">
+			<span id="burger" class="fa-bars"></span>
+		</div>
+		<div class="navPanel">
+			<div id="navPanel-content">
+				<div id="logo" class="logo">
+					<a href="Accueil.html"><img class='spip_logo spip_logos' alt='Logo du Rassemblment National' src="local/img/RN.png" width='152' height='95' /></a>
+				</div>
+				<span class="close"></span>
+			</div>
+			<nav id="nav-menu" class="nav-menu">
+				<ul>
+					
+					<li class="no-active-arrow">
+						<div class="menu-elem">
+							<a><span style='text-transform: uppercase;'>Le Mouvement</span></a>
+						</div>
+						
+							<!--<div class="inner-menu">
+								<ul class="menu-child">-->
+							<div class="lvl-2">
+								<div>
+									<ul class="lvl-2-list">
+										
+											<!--<li>
+												<a href="-Un-territoire-">Un territoire</a>
+											</li>-->
+											<li class="lvl2 no-active-arrow">
+												<div class="container-lvl2">
+													<a href="Qui.html">Qui somme nous ?</a>
+												</div>
+												<!--<div class="lvl-3">
+													<ul class="lvl-3-list">
+														
+													</ul>
+												</div>-->
+											</li>
+										
+											<!--<li>
+												<a href="-Ses-activites-culturelles-">Ses activités culturelles</a>
+											</li>-->
+											<li class="lvl2 no-active-arrow">
+												<div class="container-lvl2">
+													<a href="Organisation.html">Notre organisation</a>
+												</div>
+												<!--<div class="lvl-3">
+													<ul class="lvl-3-list">
+														
+													</ul>
+												</div>-->
+											</li>
+										
+											<!--<li>
+												<a href="-Ses-activites-sportives-">Ses activités sportives</a>
+											</li>-->
+											<li class="lvl2 no-active-arrow">
+												<div class="container-lvl2">
+													<a href="Fonctionnement.html">Notre fonctionnement</a>
+												</div>
+												<!--<div class="lvl-3">
+													<ul class="lvl-3-list">
+														
+													</ul>
+												</div>-->
+											</li>	
+									<!--</ul>
+								</div>-->
+									</ul>
+								</div>
+							</div>
+					
+					<div class="background-lvl2">
+					</div>
+					</li>
+					
+					<li class="no-active-arrow">
+						<div class="menu-elem">
+							<a><span style='text-transform: uppercase;'>Nos idées</span></a>
+						</div>
+						
+							<!--<div class="inner-menu">
+								<ul class="menu-child">-->
+							<div class="lvl-2">
+								<div>
+									<ul class="lvl-2-list">
+										
+											<!--<li>
+												<a href="#">Pour l'immigration</a>
+											</li>-->
+											<li class="lvl2 no-active-arrow">
+												<div class="container-lvl2">
+													<a href="Immigration.html">Pour l'immigration</a>
+												</div>
+											</li>
+										
+											<!--<li>
+												<a href="#">Pour l'économie</a>
+											</li>-->
+											<li class="lvl2 no-active-arrow">
+												<div class="container-lvl2">
+													<a href="Economie.html">Pour l'économie</a>
+												</div>
+											</li>
+										
+											<!--<li>
+												<a href="#">Pour la défense</a>
+											</li>-->
+											<li class="lvl2 no-active-arrow">
+												<div class="container-lvl2">
+													<a href="Defense.html">Pour la défense</a>
+												</div>
+											</li>
+										
+											<!--<li>
+												<a href="#">Pour l'écologie</a>
+											</li>-->
+											<li class="lvl2 no-active-arrow">
+												<div class="container-lvl2">
+													<a href="Ecologie.html">Pour l'écologie</a>
+												</div>
+											</li>
+										
+											<!--<li>
+												<a href="#">Pour l'éducation</a>
+											</li>-->
+											<li class="lvl2 no-active-arrow">
+												<div class="container-lvl2">
+													<a href="Education.html">Pour l'éducation</a>
+												</div>
+												<!--<div class="lvl-3">
+													<ul class="lvl-3-list">
+														
+													</ul>
+												</div>-->
+											</li>		
+									<!--</ul>
+								</div>-->
+									</ul>
+								</div>
+							</div>
+					
+					<div class="background-lvl2">
+					</div>
+					</li>
+					
+					<li class="no-active-arrow">
+						<div class="menu-elem">
+							<a><span style='text-transform: uppercase;'>Actualité</span></a>
+						</div>
+						
+							<!--<div class="inner-menu">
+								<ul class="menu-child">-->
+							<div class="lvl-2">
+								<div>
+									<ul class="lvl-2-list">
+										
+											<!--<li>
+												<a href="#">Infos Covid-19</a>
+											</li>-->
+											<li class="lvl2 no-active-arrow">
+												<div class="container-lvl2">
+													<a href="Covid.html">Infos Covid-19</a>
+												</div>
+											</li>
+										
+											<!--<li>
+												<a href="#">Nos Vidéos</a>
+											</li>-->
+											<li class="lvl2 no-active-arrow">
+												<div class="container-lvl2">
+													<a href="Vidéos.html">Nos Vidéos</a>
+												</div>
+											</li>
+										
+											<!--<li>
+												<a href="#">Nos photos</a>
+											</li>-->
+											<li class="lvl2 no-active-arrow">
+												<div class="container-lvl2">
+													<a href="Photos.html">Nos photos</a>
+												</div>
+                                            </li>
+									</ul>
+								</div>
+							</div>
+					
+					<div class="background-lvl2">
+					</div>
+					</li>
+					
+					<li class="no-active-arrow">
+						<div class="menu-elem">
+							<a><span style='text-transform: uppercase;'>Nous Contacter</span></a>
+						</div>
+						
+							<!--<div class="inner-menu">
+								<ul class="menu-child">-->
+							<div class="lvl-2">
+								<div>
+									<ul class="lvl-2-list">
+										
+											<!--<li>
+													<a href="#">A venir</a>
+											</li>-->
+											<li class="lvl2 no-active-arrow">
+												<div class="container-lvl2">
+													<a href="#">A venir</a>
+												</div>		
+											</li>
+									</ul>
+								</div>
+							</div>
+					
+					<div class="background-lvl2">
+					</div>
+				    </li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+
+
+<script>
+	$(document).ready(function()
+	{	
+		var navPanel = $('.navPanel');
+		var navPanelContent = $('#navPanel-content');
+		var navMenu = $('#nav-menu');
+
+		$(document).on('click', '.fa-bars', function()
+		{
+
+			if(navPanel.hasClass('navPanel'))
+			{
+
+				navPanel.attr('id', 'navPanel');
+				console.log(navPanel);
+				navPanel.parent().css('z-index', 3);
+				navPanelContent.css('display', 'block');
+				navMenu.addClass('responsive');
+			}
+
+			$(document).on('click', '.close', function()
+			{
+				if(navPanel.attr('id') === 'navPanel')
+				{
+					navPanel.attr('id', '');
+					navPanelContent.css('display', 'none');
+					navMenu.removeClass('responsive');
+					navPanel.parent().css('z-index', 1);
+				}
+			});
+
+			var oldWidth = $(window).width();
+			$(window).resize(function()
+			{
+				if($(window).width() > oldWidth)
+				{
+					navPanelContent.css('display', 'none');
+				}
+			});
+		});
+
+		$(document).on('mouseover', '#search-icon', function()
+		{
+			$('#search-bar').removeClass('hide');
+			$('#search-bar').addClass('show');
+		});
+
+		
+		$(document).on('mouseenter', '#nav-menu > ul > li', function()
+		{
+			var el = $(this);
+			el.removeClass('no-active-arrow').addClass('active-arrow');
+		});
+
+		$(document).on('mouseleave', '#nav-menu > ul > li', function()
+		{
+			var el = $(this);
+			el.removeClass('active-arrow').addClass('no-active-arrow');
+		});
+
+		
+		if($(window).width() <= 964)
+		{
+			var menu = $('#nav-menu');
+			var el = menu.children('ul').children('li');
+			var iMax = el.length;
+			$.each(el, function(index, value)
+			{			
+				if(index === (iMax - 1) )
+				{
+					$(value).css('margin-bottom', 100);
+				}
+			});
+
+
+			//css pour la balise <center> et <iframe> lorsqu'une vidéo est présente dans l'article
+			var divIFrame = $(".textearticle").children("center");
+			divIFrame.css('position', 'relative');
+			divIFrame.children('iframe').css('position', 'relative').css('width', '100%')
+
+		}
+		else 
+		{
+			var menu = $('#nav-menu');
+			var el = menu.children('ul').children('li');
+			var iMax = el.length;
+			$.each(el, function(index, value)
+			{			
+				if(index === (iMax - 1) )
+				{
+					$(value).css('margin-bottom', 0);
+				}
+			});
+		}
+
+
+	});
+</script>
+<div id="container">
+
+	<div class="conteneur infos">
+	
+
+		<div id="ariane" class="w-80">
+			<span class="uppercase">Vous êtes ici :</span>
+			
+			<a href="Accueil.html" title="::Retour a l'accueil">Accueil</a>
+			
+			&gt; Economie
+			
+			</div>
+	<div id="outils" class="w-20">
+	<div>
+			<img id="zoom_less" alt="dézoomer" src="squelettes/files/img/icon/font_less.png"/>
+			<img id="zoom_more" class="ico_help" alt="zoomer" src="squelettes/files/img/icon/font_up.png"/>
+			<a id="print_page" href="#" onclick="window.print(); return false" rel="nofollow" target="_self">
+				<img class="ico_help" alt="Imprimer la page" src="squelettes/files/img/icon/printer.png"/>
+			</a>
+			<img id="share" class="ico_help" alt="Partager l'article" src="squelettes/files/img/icon/share.png"/>
+			<img id="mailer" class="ico_help" alt="Envoyer l'article par email" src="squelettes/files/img/icon/mail.png" url="#"/>
+	</div>
+	<div id="share_social_network">
+		<img id="bubble-queue" alt="" src="squelettes/files/img/icon/triangle-haut.png" />
+		<a id="share_on_fb" href="#" target="_blank" title="Partager l'article sur facebook" onClick="sharepublication(this);return false">
+			<img alt="Partager l'article sur facebook" class="ico_help" src="squelettes/files/img/icon/fb.png" />
+		</a>
+		<a id="share_on_tw" href="#" target="_blank" title="Partager l'article sur twitter" onClick="sharepublication(this);return false">
+			<img alt="Partager l'article sur twitter" class="ico_help" src="squelettes/files/img/icon/tw.png" />
+		</a>
+		<a id="share_on_li" href="#"_blank" title="Partager l'article sur LinkedIn" onClick="sharepublication(this);return false">
+			<img alt="Partager l'article sur linkedin" class="ico_help" src="squelettes/files/img/icon/li.png" />
+		</a>
+	</div>
+</div>
+
+
+<script>
+	$(document).on('click', '#zoom_less', function()
+	{
+		var el;
+		
+		if($('.has-tool').children('.col-12').length > 0)
+		{
+			el = $('.has-tool').children('.col-12');
+		}
+		
+		if(el.length > 1)
+		{
+			el.splice(0,1)
+		}
+
+		$.each(el.children(), function(index, value)
+		{
+			if( parseFloat($(value).css('font-size')) >= 11)
+			{
+				$(value).css('font-size', parseFloat($(value).css('font-size')) - 2)
+			}
+			
+		});
+
+		
+	});
+
+	$(document).on('click', '#zoom_more', function()
+	{ 
+		
+		var el;
+		if($('.has-tool').children('.col-12').length > 0)
+		{
+			el = $('.has-tool').children('.col-12');
+		}
+		
+		if(el.length > 1)
+		{
+			el.splice(0,1)
+		}
+		$.each(el.children(), function(index, value)
+		{
+			if( parseFloat($(value).css('font-size')) < 40)
+			{
+				$(value).css('font-size', parseFloat($(value).css('font-size')) + 2)
+			}
+		});
+	});
+
+	$(document).on('click', '#share', function()
+	{
+		var socialNetwork = $('#share_social_network');
+
+		if(socialNetwork.css('display') == 'none')
+		{
+			socialNetwork.css('display', 'inline-block');
+		}
+		else
+		{
+			socialNetwork.css('display', 'none');
+		}
+	});
+
+	$(document).on('click', '#mailer', function()
+	{
+		window.location.href = "mailto:?body="+$(this).attr('url');
+	});
+	
+	function sharepublication(link)
+	{
+		//console.log(link.href);
+		window.open(link.href, '', 'scrollbars=1,resizable=1,height=560,width=770');
+	}
+
+</script>	
+
+
+		<div id="keywords" class="col-12">			
+		</div>
+	</div>
+		<div class="conteneur article has-tool">
+			<div class="col-12 contenu">
+				<div class="datearticle">Date</div>
+				<h1 class="titrearticle">Pour l'économie</h1>
+				<div class="soustitrearticle"></div>
+				<div class="descriptifarticle"></div>		
+				<div class="logoarticle"><img class='spip_logo spip_logos' alt="" src="local/img/5de33b67e8da2f43c26aa660f28481.jpg?1600707257" width='960' height='360' /></div>
+				
+                <div class="textearticle">
+                    <p>Artcile en cours de création</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<div id="footer">
+        <div class="conteneur">
+        
+            <div class="col-3">
+                <h3 class="spip">Informations</h3>
+    <p>Lycée Notre Dame<br class='autobr' />
+    85300 Challans <br class='autobr' />
+    Accueil&nbsp;: Heure : ?</p>
+    <p>Téléphone&nbsp;: <a href="">A venir</a></p>
+            </div>
+        
+            <div class="col-3">
+                <h3 class="spip">Divers</h3>
+    <p><img src="squelettes-dist/puce.gif" width="8" height="11" class="puce" alt="-" />&nbsp;<a href="spip.php?page=contact">Contact par formulaire</a>
+    <br /><img src="squelettes-dist/puce.gif" width="8" height="11" class="puce" alt="-" />&nbsp;<a href="" class='spip_in'></a>
+    <br /><img src="squelettes-dist/puce.gif" width="8" height="11" class="puce" alt="-" />&nbsp;<a href="" class='spip_out' rel='external'></a>
+    <br /><img src="squelettes-dist/puce.gif" width="8" height="11" class="puce" alt="-" />&nbsp;<a href="" class='spip_in'>Mentions légales</a>
+    <br /><img src="squelettes-dist/puce.gif" width="8" height="11" class="puce" alt="-" />&nbsp;<a href="" class='spip_in'>Nos logos</a>
+    <br /><img src="squelettes-dist/puce.gif" width="8" height="11" class="puce" alt="-" />&nbsp;<a href="">Plan du site</a></p>
+            </div>
+        
+		<div class="col-3">
+			<h3 class="spip">Rubriques</h3>
+	<p><img src="squelettes-dist/puce.gif" width="8" height="11" class="puce" alt="-" />&nbsp;<a href="Accueil.html" class='spip_out' rel='external'>Accueil</a>
+	<br /><img src="squelettes-dist/puce.gif" width="8" height="11" class="puce" alt="-" />&nbsp;<a href="Immigration.html" class='spip_out' rel='external'>Immigration</a>
+	<br /><img src="squelettes-dist/puce.gif" width="8" height="11" class="puce" alt="-" />&nbsp;<a href="Economie.html" class='spip_out' rel='external'>Economie</a>
+	<br /><img src="squelettes-dist/puce.gif" width="8" height="11" class="puce" alt="-" />&nbsp;<a href="Defense.html" class='spip_out' rel='external'>Défense</a>
+	<br /><img src="squelettes-dist/puce.gif" width="8" height="11" class="puce" alt="-" />&nbsp;<a href="Ecologie.html" class='spip_out' rel='external'>Ecologie</a>
+	<br /><img src="squelettes-dist/puce.gif" width="8" height="11" class="puce" alt="-" />&nbsp;<a href="Education.html" class='spip_out' rel='external'>Education</a></p>
+		</div>
+        
+            <div class="col-3">
+                <h3 class="spip">Suivre le Rassemblment National</h3>
+    <p><img src="squelettes-dist/puce.gif" width="8" height="11" class="puce" alt="-" />&nbsp;<a href="" class='spip_out' rel='external'>Youtube</a>
+    <br /><img src="squelettes-dist/puce.gif" width="8" height="11" class="puce" alt="-" />&nbsp;<a href="" class='spip_out' rel='external'>Facebook</a>
+    <br /><img src="squelettes-dist/puce.gif" width="8" height="11" class="puce" alt="-" />&nbsp;<a href="" class='spip_out' rel='external'>Instagram</a>
+    <br /><img src="squelettes-dist/puce.gif" width="8" height="11" class="puce" alt="-" />&nbsp;<a href="" class='spip_out' rel='external'>Linkedin</a>
+    <br /><img src="squelettes-dist/puce.gif" width="8" height="11" class="puce" alt="-" />&nbsp;<a href="" class='spip_out' rel='external'>Twitter</a></p>
+            </div>
+        
+        </div>
+    </div>	<script type="text/javascript" src="squelettes/files/js/slick/jquery.slick.customPager.min.js"></script></body>
+</html>
