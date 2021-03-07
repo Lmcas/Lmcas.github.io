@@ -1,0 +1,390 @@
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = */
+/* -----------------------------
+	CSS du menu
+----------------------------- */
+
+#menu {
+	clear: both;
+	position: relative;
+	width: 100%;
+	padding: 33px 0px 0px 0px;
+	z-index: 1;
+}
+
+#nav-menu>ul {
+	/*	padding-left: 12em;*/
+}
+
+.nav-menu>ul {
+	list-style-type: none;
+}
+
+#nav-menu > ul > li {
+	display: inline-block;
+}
+
+.nav-menu li .menu-elem {
+	cursor: pointer;
+}
+
+.nav-menu ul li .menu-elem a {
+	color: #0055AA;
+	padding: 1em 2em;
+}
+
+.nav-menu ul li .menu-elem a:active {
+	color: #0055AA;
+}
+
+
+.background-lvl2 {
+	width: 100%;
+	height: 100px;
+	height: 12vw;
+	position: absolute;
+	left: 0;
+	display:none;
+	background-color: white;
+	background-color: rgba(255,255,255,0.9);
+	padding-top:1%;
+}
+
+.container-lvl2 {
+	width: 50%;
+}
+
+
+
+.lvl-2{
+	display:none;
+	position: absolute;
+	z-index:1;
+	width: 100%;
+	/*padding-bottom: 5.5%;*/
+	margin-top:1%;
+	/*left: 0;*/
+	height: 12vw;
+}
+
+.lvl-2 > div{
+	margin: 0px auto;
+}
+
+.nav-menu ul li:hover .background-lvl2, .nav-menu ul li:hover .lvl-2, .nav-menu ul li:active .lvl-2 {
+	display: inline-block;
+}
+
+.lvl-2-list{
+	list-style-type: none;
+	padding:0;
+	/*border-right: 1px solid rgb(45, 173, 39);*/
+	
+}
+
+.lvl-2-list li{
+	display:block;
+	
+}
+
+.lvl-2-list > li > div > a {
+	text-decoration: none;
+	color: #0055AA;
+	position: relative;
+	display: block;
+	padding: 11px 40px;
+}
+
+/*.lvl-3{
+	display:none;
+	text-align: left;
+	font-size: 13px;
+}
+
+.lvl-3-list{
+	position: absolute;
+	top: 0px;
+	margin: 5% 0px;
+	padding:0;
+	height: 460px;
+	width: 50%;
+}
+
+.lvl-3-list > li > a{
+	padding: 15px;
+	text-decoration: none;
+	color: #0055AA;
+	position: relative;
+	display: block;
+}*/
+
+.menu-child {
+	list-style-type: none;
+	padding:0;
+}
+
+.menu-child li {
+	padding: 25px 25px;
+}
+
+.menu-child li a {
+	text-decoration: none;
+	color: #0055AA;
+}
+
+#navPanel-content,
+#title-bar {
+	display: none;
+}
+
+.lvl-2 ul li:hover .lvl-3,  .lvl-2 ul li:active .lvl-3 {
+	display: inline-block;
+	}
+
+	.lvl-2-list > li:hover > div{
+		/*border:1px solid;
+		border-color: #2DAD27;
+		box-shadow:0px 0px 5px 0px #067900;
+		background-color:white;*/
+		width:50%;
+	}
+
+	.lvl-2-list > li:hover > div > a{
+		font-size:20px;
+	}
+
+	.active-arrow{
+		background-image: url(../img/icon/flechebleue.png);
+		background-repeat: no-repeat;
+		background-position: 0px 50%;
+	}
+
+	.no-active-arrow{
+		background-image: url(../img/icon/flecheverte.png);
+		background-repeat: no-repeat;
+		background-position: 0px 50%;
+	}
+
+	.lvl2 {
+		background-position: 15px 51%;
+		background-size: 11px;
+	}
+
+	.lvl2:hover {
+		background-image: url(../img/icon/flechebleue-droite.png);
+		background-size: 11px;
+	}
+/******************************************************************************************************/
+		/*# *** Partie Responsive *** */
+
+/* #
+**** Ecran de taille maximum 1680 pixel
+*/
+@media screen and (max-width: 1680px) {
+	
+}
+
+/* #
+**** Ecran de taille maximum 1280 pixel
+*/
+@media screen and (max-width: 1280px) {
+	.nav-menu ul li .menu-elem a {
+		font-size: 85%;
+	}
+}
+/* #
+**** Ecran de taille maximum 980 pixel
+*/
+@media screen and (max-width: 980px) {
+	#menu {
+		padding: 0;
+		width: 75%;
+		
+	}
+	.nav-menu {
+		display: none;
+	}
+	.nav-menu ul li .menu-elem a {
+		font-weight:bold;
+		padding: 0;
+	}
+	.nav-menu ul li .menu-elem a span{
+		font-size:18px;
+	}
+	.responsive,
+	#title-bar {
+		display: block;
+	}
+	#title-bar {
+		margin: 0 10px;
+		width: 30%;
+	}
+	#logo {
+		float: none;
+	}
+	#logo,
+	.fa-bars {
+		display: inline-block;
+		height: 50px;
+		width: 100px;
+		cursor: pointer;
+		position: relative;
+	}
+	.fa-bars:before {
+		content: "";
+		position: absolute;
+		top: -15px;
+		left: 0px;
+		width: 6em;
+		height: 1.15em;
+		box-shadow: 
+			0px 1em 0px -4px #05A, 
+			0px 2em 0px -4px #05A, 
+			0px 3em 0px -4px #05A;
+	}
+	#navPanel {
+		clear: both;
+		display: block;
+		height: 100%;
+		width: 75%;
+		background-color: white;
+		top: 0;
+		position: fixed;
+		z-index: 2;
+		overflow: auto; 
+	}
+	#navPanel-content>.close {
+		float: right;
+		cursor: pointer;
+		margin: 10px;
+		background-image: url('../img/icon/cancel.png');
+		width: 32px;
+		height: 32px;
+		background-size: 32px;
+		background-repeat: no-repeat;
+	}
+	#navPanel>.nav-menu>ul {
+		padding: 0px;
+	}
+	#navPanel>.nav-menu>ul>li {
+		padding: 20px 0px;
+		border-bottom: 1px solid #E1E1E1;
+		display: block;
+	}
+	#navPanel>nav>ul>li>.lvl-2 {
+		position: static;
+		text-align: left;
+	}
+	#navPanel>nav>ul>li>.lvl-2>ul {
+		padding: 0;
+	}
+	#navPanel {
+		font-size: 13px;
+	}
+
+	.lvl-2 {
+		display: block;
+		height:auto;
+	}
+
+	.lvl-2-list{
+		margin:0;
+		width:99%;
+		text-align:left;
+		border:none;
+	}
+
+	.lvl-2-list li{
+		padding:0;
+	}
+
+	.lvl-2-list li a {
+    	font-size: 16px;
+    	padding:0;
+	}
+
+	#nav-menu ul li {
+	display: block;
+	}
+
+	.lvl-2-list li {
+   	 padding: 8px 22px;
+	}
+	
+	.nav-menu ul li:hover .background-lvl2 {
+		display: none;
+	}
+
+	.no-active-arrow,
+	.active-arrow,
+	.lvl2:hover{
+		background:none;
+	}
+
+	.container-lvl2 {
+	    width: 100%;
+	}
+
+	.lvl-2-list > li:hover > div > a {
+		font-size: 16px;
+		text-shadow: none;
+	}
+
+	.lvl-2-list > li:hover > div {
+		 width: 100%;
+	}
+
+	
+
+	.lvl-2-list > li > div > a {
+	    padding: 10px 15px;
+	}
+}
+
+
+
+/* #
+**** Ecran de taille maximum 736 pixel
+*/
+@media screen and (max-width: 736px) {
+	
+}
+
+
+/* #
+**** Ecran de taille maximum 480 pixel
+*/
+@media screen and (max-width: 480px) {
+	
+}
+
+
+/* #
+**** Ecran de taille maximum 360 pixel
+*/
+@media screen and (max-width: 360px) {
+	.fa-bars::before {
+	    width: 4em;
+	}
+
+	.nav-menu ul li .menu-elem a {
+	    padding: 0;
+	}
+
+	.lvl-2-list li {
+	    padding: 5px 2px;
+	}
+
+	.lvl-2-list li a {
+	    font-size: 11px;
+	}
+
+	#navPanel-content > #logo {
+		margin-top:10px;
+		margin-left:5px;
+	}
+
+	#navPanel-content > #logo > a > img {
+		width:80px;
+		height:60px;
+	}
+}

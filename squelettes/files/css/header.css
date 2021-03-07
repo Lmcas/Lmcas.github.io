@@ -1,0 +1,178 @@
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = */
+/* -----------------------------
+	Header
+----------------------------- */
+
+#header p {
+	margin-top: 1em;
+	font-size: 26px;
+	color: #0055AA;
+}
+
+/* -----------------------------
+	CSS logo + slogan
+----------------------------- */
+
+#description_site {
+	display: inline-block;
+	margin-top: 77px;
+	margin-left: 20px;
+	color: #05A;
+	font-size:22px;
+}
+
+.logo {
+	display: block;
+	float: left;
+	margin-left: 3em;
+	margin-top:10px;
+}
+
+.logo a img {
+	border: 0px;
+}
+
+/* -----------------------------
+	CSS du conteneur des reseaux sociaux
+----------------------------- */
+#social-container>p {
+	position: relative;
+	right: 1em;
+	z-index: 3;
+	text-align: right;
+}
+
+#social-container p a img {
+	border: 0px;
+}
+
+.spip_documents {
+	width: 35px;
+}
+
+#social-container {
+	background-image: url('../img/pics/triangle-haut-droite.png');
+	background-repeat: no-repeat;
+	width: 340px;
+	height: 340px;
+	position: absolute;
+	z-index: 0;
+	right: -1px;
+	top: -2px;
+	display: inline-block;
+	float: right;
+}
+
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = */
+/******************************************************************************************************/
+		/*# *** Partie Responsive *** */
+
+/* #
+**** Ecran de taille maximum 1680 pixel
+*/
+@media screen and (max-width: 1680px) {
+
+}
+
+/* #
+**** Ecran de taille maximum 1280 pixel
+*/
+@media screen and (max-width: 1280px) {
+	
+}
+
+
+/* #
+**** Ecran de taille maximum 980 pixel
+*/
+@media screen and (max-width: 980px) {
+	#social-container {
+		width: 238px;
+		height: 260px;
+	}
+
+	#description_site {
+		margin-left: 0px;
+		font-size:17px;
+	}
+
+	#social-container > p > span > a > img {
+		width:30px;
+		height:30px;
+	}
+}
+
+
+/* #
+**** Ecran de taille maximum 736 pixel
+*/
+@media screen and (max-width: 736px) {
+	.logo {
+		float: none;
+		text-align: center;
+		margin-left: 0;
+	}
+
+	#description_site {
+		margin-top: 20px;
+		font-size:19px;	
+		display: block;
+		text-align: center;
+	}
+
+	#social-container {
+		width: 260px;
+		height: 260px;
+		top: 165px;
+	}
+
+	#social-container>p {
+		right: 1em;
+		margin: 0;
+		top: 5px;
+	}
+
+	#social-container > p > span > a > img {
+		width:30px;
+		height:30px;
+	}
+}
+
+
+/* #
+**** Ecran de taille maximum 480 pixel
+*/
+@media screen and (max-width: 480px) {
+
+	#description_site {
+		margin-top: 0;
+		font-size:16px;
+		padding: 0 11px;
+	}
+}
+
+
+/* #
+**** Ecran de taille maximum 360 pixel
+*/
+@media screen and (max-width: 360px) {
+
+
+	#description_site {
+		font-size:14px;
+	}
+
+	#social-container {
+		width: 180px;
+		height: 180px;
+		top: 165px;
+	}
+
+	#social-container > p > span > a > img {
+		width:22px;
+		height:22px;
+	}
+}
+
+
+

@@ -1,0 +1,233 @@
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = */
+/* -----------------------------
+	CSS du systeme de recherche
+----------------------------- */
+
+#search {
+	position: relative;
+	z-index: 2;
+}
+
+#search-icon {
+	position: absolute;
+	top: 40px;
+	right: 0px;
+	background-image: url("../img/icon/loupe_responsive.png");
+	background-repeat: no-repeat;
+	width: 250px;
+	height: 50px;
+	z-index: 1;
+}
+
+#search-icon:hover+div#search-bar,
+div#search-bar:hover {
+	display: block;
+}
+
+#search-bar {
+	background-color: #05A;
+	width: 100%;
+	position: fixed;
+	height: 200px;
+	display: none;
+	top: 0px;
+}
+
+#formulaire_recherche .editer-groupe {
+	position: relative;
+	left: 9%;
+}
+
+#formulaire_recherche .editer-groupe label {
+	color: white;
+	text-transform: uppercase;
+	font-size: 40px;
+}
+
+#formulaire_recherche .editer-groupe #recherche {
+	width: 60%;
+	margin-top: 29px;
+	height: 71px;
+	background-color: #023C73;
+	border: none;
+	color: white;
+	font-size: 35px;
+	border-radius: 8px;
+}
+
+/******************************************************************************************************/
+		/*# *** Partie Responsive *** */
+
+/* #
+**** Ecran de taille maximum 1680 pixel
+*/
+@media screen and (max-width: 1680px) {
+	#search-icon {
+	    position: absolute;
+	    top: 48px;
+	    right: 0px;
+	    background-image: url("../img/icon/loupe_responsive.png");
+	    background-repeat: no-repeat;
+	    width: 50px;
+	    height: 43px;
+		z-index: 1;
+
+	}
+}
+
+/* #
+**** Ecran de taille maximum 1280 pixel
+*/
+@media screen and (max-width: 1280px) {
+	#search-icon {
+	    top: 47px;
+	    right: 0px;
+	    width: 52px;
+	    height: 50px;
+		z-index: 1;
+
+	}
+
+	#search-bar {
+		height: 198px;
+	}
+
+	.hide{
+		display:none !important;
+	}
+
+	#formulaire_recherche .editer-groupe label {
+		font-size: 35px;
+	}
+	#formulaire_recherche .editer-groupe #recherche {
+		margin-top: 20px;
+		font-size: 35px;
+	}
+	#formulaire_control>.close {
+		float: right;
+		cursor: pointer;
+		margin: 10px;
+		background-image: url('../img/icon/cancel-white.png');
+		width: 32px;
+		height: 32px;
+		background-size: 32px;
+		background-repeat: no-repeat;
+		position:relative;
+		z-index:1;
+	}
+
+	#formulaire_control{
+		position: relative;
+		z-index: 1;
+	}
+}
+
+
+/* #
+**** Ecran de taille maximum 980 pixel
+*/
+@media screen and (max-width: 980px) {
+	#search-icon {
+		top: 20px;
+		width: 57px;
+	}
+
+	#formulaire_recherche .editer-groupe #recherche {
+		height: 55px;
+		font-size: 32px;
+	}
+
+	#formulaire_control>.close {
+		float: right;
+		cursor: pointer;
+		margin: 10px;
+		background-image: url('../img/icon/cancel-white.png');
+		width: 32px;
+		height: 32px;
+		background-size: 32px;
+		background-repeat: no-repeat;
+		position:relative;
+		z-index:1;
+	}
+	.hide{
+		display:none !important;
+	}
+}
+
+
+/* #
+**** Ecran de taille maximum 736 pixel
+*/
+@media screen and (max-width: 736px) {
+
+	#search-icon {
+		position: relative;
+		float: right;
+		top: 4.5em;
+		height: 55px;
+		width: 53px;
+	}
+	#search-bar {
+		height: 268px;
+	}
+	#formulaire_recherche .editer-groupe label {
+		font-size: 25px;
+		margin-top: 60px;
+		display: inline-block;
+	}
+	#formulaire_recherche .editer-groupe #recherche {
+		height: 60px;
+	}
+
+	
+}
+
+
+/* #
+**** Ecran de taille maximum 480 pixel
+*/
+@media screen and (max-width: 480px) {
+	#search-bar {
+	    height: 244px;
+	}
+
+	#formulaire_recherche .editer-groupe label {
+   	 	font-size: 20px;
+   	 	margin-top: 60px;
+		display: inline-block;
+	}
+
+	.article .exergue, .rubrique .exergue {
+	    margin-right: 0;
+	}
+
+}
+
+
+/* #
+**** Ecran de taille maximum 360 pixel
+*/
+@media screen and (max-width: 360px) {
+	#search-bar {
+	    height: 231px;
+	}
+
+	#search-icon {
+		background-size:22px 22px;
+		top: 74px;
+		width: 45px;
+	}
+	
+	#formulaire_recherche .editer-groupe label {
+   	 	font-size: 20px;
+   	 	margin-top: 60px;
+		display: inline-block;
+	}
+
+	#formulaire_recherche .editer-groupe #recherche {
+		height: 34px;
+		width: 60%;
+		margin-top: 30px;
+		font-size: 20px;
+	}
+}

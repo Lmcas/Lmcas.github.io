@@ -1,0 +1,726 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!-- Feuille de style des pictos -->
+	<!--link rel="stylesheet" type="text/css" media="screen" href="squelettes/files/css/font-awesome.min.css" /-->
+	<!-- Feuille de style du header -->
+	<link rel="stylesheet" type="text/css" media="screen" href="squelettes/files/css/header.css" />
+	<!-- Feuille de style de la recherche -->
+	<link rel="stylesheet" type="text/css" media="screen" href="squelettes/files/css/recherche.css" />
+	<!-- Feuille de style du menu -->
+	<link rel="stylesheet" type="text/css" media="screen" href="squelettes/files/css/menu.css" />
+	<!-- Feuille de style du slider -->
+	<link rel="stylesheet" type="text/css" media="screen" href="squelettes/files/css/slider-slick.css" />
+	<!-- Feuille de style du footer -->
+	<link rel="stylesheet" type="text/css" media="screen" href="squelettes/files/css/footer.css" />
+	<!-- Feuille de style de base -->
+	<link rel="stylesheet" type="text/css" media="screen" href="squelettes/files/css/base.css" />
+	<!-- Feuille de style du rss -->
+	<link rel="stylesheet" type="text/css" media="screen" href="squelettes/files/css/rss.css" />
+	<!-- Feuille de style de impression -->
+	<link rel="stylesheet" type="text/css" media="print" href="squelettes/files/css/print.css" />
+	<!-- Feuille de style de police OpenSans -->
+	<link rel="stylesheet" type="text/css" href="squelettes/files/css/opensansfont.css" />
+	
+<!-- insert_head_css --><script src="prive/javascript/jquery.js?1613730554" type="text/javascript"></script>
+
+<script src="prive/javascript/jquery-migrate-3.0.1.js?1613730554" type="text/javascript"></script>
+
+<script src="prive/javascript/jquery.form.js?1613730554" type="text/javascript"></script>
+
+<script src="prive/javascript/jquery.autosave.js?1613730554" type="text/javascript"></script>
+
+<script src="prive/javascript/jquery.placeholder-label.js?1613730554" type="text/javascript"></script>
+
+<script src="prive/javascript/ajaxCallback.js?1613730554" type="text/javascript"></script>
+
+<script src="prive/javascript/js.cookie.js?1613730554" type="text/javascript"></script>
+
+<script src="prive/javascript/jquery.cookie.js?1613730554" type="text/javascript"></script>
+<!-- insert_head -->
+	<script type="text/javascript" src="squelettes/files/js/bxSlider/jquery.bxslider.min.js"></script>
+	<script type="text/javascript" src="squelettes/files/js/slick/slick.min.js"></script>
+	<script type="text/javascript" src="squelettes/files/js/slick/jquery.slick.customPager.min.js"></script>
+	<script type="text/javascript" src="squelettes/files/js/main.js"></script>
+	<!--<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" /> -->
+	<!--[if IE 6]><link rel="stylesheet" type="text/css" media="screen" href="" /><![endif]-->
+	<!--[if lte IE 8]>
+	<link rel="stylesheet" type="text/css" media="screen" href="squelettes//files/css/menu-ie.css" />
+	<![endif]-->	<title>Site non-officiel du Rassemblment National</title>
+	<meta name="description" content="Site non-officiel du Rassemblment National, actualité, réseau, projet, France." />
+	<link rel="stylesheet" type="text/css" media="screen" href="squelettes/files/css/home.css" />
+</head>
+<body>
+	<div id="header"> 
+	<div class="logo">
+		<a href="Accueil.html"><img class='spip_logo spip_logos' alt='Logo du Conseil d&#233;partemental du Cher' src="local/img/RN.png" width='152' height='95' /></a>
+	</div>
+	<div id="description_site">
+		<span style='text-transform: uppercase;'>Le Rassemblment National, une grande famille.</span>
+	</div>
+	<div id="social-container">
+
+
+		
+				<p><span class='spip_document_10 spip_documents'>
+<a href="#" class="spip_out"><img src='IMG/ico-d.png' width="32" height="32" alt="Lien vers la chaine Dailymotion" title="Lien vers la chaine Dailymotion" /></a></span><span class='spip_document_11 spip_documents'>
+<a href="#" class="spip_out"><img src='IMG/ico-fb.png' width="32" height="32" alt="Lien vers la page Facebook" title="Lien vers la page Facebook" /></a></span><span class='spip_document_1540 spip_documents'>
+<a href="#" class="spip_out"><img src='IMG/instagram-brands.png' width="32" height="32" alt="Lien vers la page Instagram" title="Lien vers la page Instagram" /></a></span><span class='spip_document_1390 spip_documents'>
+<a href="#" class="spip_out"><img src='IMG/ico-l.png' width="32" height="32" alt="Lien vers la page LinkedIn" title="Lien vers la page LinkedIn" /></a></span><span class='spip_document_12 spip_documents'>
+<a href="#" class="spip_out"><img src='IMG/ico-tw.png' width="32" height="32" alt="Lien vers le fil d'actualit&#233; Twitter" title="Lien vers le fil d'actualit&#233; Twitter" /></a></span><span class='spip_document_13 spip_documents'>
+
+		
+
+	</div>
+	<div id="search">
+		<div id="search-icon" onclick="">
+
+		</div>
+		<div id="search-bar">
+			<div id="formulaire_control"><span class="close cl-search"></span></div>
+<div class="formulaire_spip formulaire_recherche" id="formulaire_recherche">
+<form action="spip.php?page=recherche" method="get"><div class="editer-groupe">
+	<input name="page" value="recherche" type="hidden"
+/>
+	
+	<label for="recherche">Que cherchez-vous ?</label><br /> 
+	<input type="search" class="search text" size="10" name="recherche" id="recherche" accesskey="4" autocomplete="off" autofocus />
+</div></form>
+</div>
+<script>
+$(document).on('click', '.cl-search', function()
+{
+	$('#search-bar').removeClass('show');
+	$('#search-bar').addClass('hide');
+});
+</script>		
+		</div>
+	</div>
+
+
+	<div id="menu">
+		<div id="title-bar">
+			<span id="burger" class="fa-bars"></span>
+		</div>
+		<div class="navPanel">
+			<div id="navPanel-content">
+				<div id="logo" class="logo">
+					<a href="Accueil.html"><img class='spip_logo spip_logos' alt='Logo du Rassemblment National' src="local/img/RN.png" width='152' height='95' /></a>
+				</div>
+				<span class="close"></span>
+			</div>
+			<nav id="nav-menu" class="nav-menu">
+				<ul>
+					
+					<li class="no-active-arrow">
+						<div class="menu-elem">
+							<a><span style='text-transform: uppercase;'>Le Mouvement</span></a>
+						</div>
+						
+							<!--<div class="inner-menu">
+								<ul class="menu-child">-->
+							<div class="lvl-2">
+								<div>
+									<ul class="lvl-2-list">
+										
+											<!--<li>
+												<a href="-Un-territoire-">Un territoire</a>
+											</li>-->
+											<li class="lvl2 no-active-arrow">
+												<div class="container-lvl2">
+													<a href="Qui.html">Qui somme nous ?</a>
+												</div>
+												<!--<div class="lvl-3">
+													<ul class="lvl-3-list">
+														
+													</ul>
+												</div>-->
+											</li>
+										
+											<!--<li>
+												<a href="-Ses-activites-culturelles-">Ses activités culturelles</a>
+											</li>-->
+											<li class="lvl2 no-active-arrow">
+												<div class="container-lvl2">
+													<a href="Organisation.html">Notre organisation</a>
+												</div>
+												<!--<div class="lvl-3">
+													<ul class="lvl-3-list">
+														
+													</ul>
+												</div>-->
+											</li>
+										
+											<!--<li>
+												<a href="-Ses-activites-sportives-">Ses activités sportives</a>
+											</li>-->
+											<li class="lvl2 no-active-arrow">
+												<div class="container-lvl2">
+													<a href="Fonctionnement.html">Notre fonctionnement</a>
+												</div>
+												<!--<div class="lvl-3">
+													<ul class="lvl-3-list">
+														
+													</ul>
+												</div>-->
+											</li>	
+									<!--</ul>
+								</div>-->
+									</ul>
+								</div>
+							</div>
+					
+					<div class="background-lvl2">
+					</div>
+					</li>
+					
+					<li class="no-active-arrow">
+						<div class="menu-elem">
+							<a><span style='text-transform: uppercase;'>Nos idées</span></a>
+						</div>
+						
+							<!--<div class="inner-menu">
+								<ul class="menu-child">-->
+							<div class="lvl-2">
+								<div>
+									<ul class="lvl-2-list">
+										
+											<!--<li>
+												<a href="#">Pour l'immigration</a>
+											</li>-->
+											<li class="lvl2 no-active-arrow">
+												<div class="container-lvl2">
+													<a href="Immigration.html">Pour l'immigration</a>
+												</div>
+											</li>
+										
+											<!--<li>
+												<a href="#">Pour l'économie</a>
+											</li>-->
+											<li class="lvl2 no-active-arrow">
+												<div class="container-lvl2">
+													<a href="Economie.html">Pour l'économie</a>
+												</div>
+											</li>
+										
+											<!--<li>
+												<a href="#">Pour la défense</a>
+											</li>-->
+											<li class="lvl2 no-active-arrow">
+												<div class="container-lvl2">
+													<a href="Defense.html">Pour la défense</a>
+												</div>
+											</li>
+										
+											<!--<li>
+												<a href="#">Pour l'écologie</a>
+											</li>-->
+											<li class="lvl2 no-active-arrow">
+												<div class="container-lvl2">
+													<a href="Ecologie.html">Pour l'écologie</a>
+												</div>
+											</li>
+										
+											<!--<li>
+												<a href="#">Pour l'éducation</a>
+											</li>-->
+											<li class="lvl2 no-active-arrow">
+												<div class="container-lvl2">
+													<a href="Education.html">Pour l'éducation</a>
+												</div>
+												<!--<div class="lvl-3">
+													<ul class="lvl-3-list">
+														
+													</ul>
+												</div>-->
+											</li>		
+									<!--</ul>
+								</div>-->
+									</ul>
+								</div>
+							</div>
+					
+					<div class="background-lvl2">
+					</div>
+					</li>
+					
+					<li class="no-active-arrow">
+						<div class="menu-elem">
+							<a><span style='text-transform: uppercase;'>Actualité</span></a>
+						</div>
+						
+							<!--<div class="inner-menu">
+								<ul class="menu-child">-->
+							<div class="lvl-2">
+								<div>
+									<ul class="lvl-2-list">
+										
+											<!--<li>
+												<a href="#">Infos Covid-19</a>
+											</li>-->
+											<li class="lvl2 no-active-arrow">
+												<div class="container-lvl2">
+													<a href="Covid.html">Infos Covid-19</a>
+												</div>
+											</li>
+										
+											<!--<li>
+												<a href="#">Nos Vidéos</a>
+											</li>-->
+											<li class="lvl2 no-active-arrow">
+												<div class="container-lvl2">
+													<a href="Vidéos.html">Nos Vidéos</a>
+												</div>
+											</li>
+										
+											<!--<li>
+												<a href="#">Nos photos</a>
+											</li>-->
+											<li class="lvl2 no-active-arrow">
+												<div class="container-lvl2">
+													<a href="Photos.html">Nos photos</a>
+												</div>
+                                            </li>
+									</ul>
+								</div>
+							</div>
+					
+					<div class="background-lvl2">
+					</div>
+					</li>
+					
+					<li class="no-active-arrow">
+						<div class="menu-elem">
+							<a><span style='text-transform: uppercase;'>Nous Contacter</span></a>
+						</div>
+						
+							<!--<div class="inner-menu">
+								<ul class="menu-child">-->
+							<div class="lvl-2">
+								<div>
+									<ul class="lvl-2-list">
+										
+											<!--<li>
+													<a href="#">A venir</a>
+											</li>-->
+											<li class="lvl2 no-active-arrow">
+												<div class="container-lvl2">
+													<a href="#">A venir</a>
+												</div>		
+											</li>
+									</ul>
+								</div>
+							</div>
+					
+					<div class="background-lvl2">
+					</div>
+				    </li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+
+<script>
+	$(document).ready(function()
+	{	
+		var navPanel = $('.navPanel');
+		var navPanelContent = $('#navPanel-content');
+		var navMenu = $('#nav-menu');
+
+		$(document).on('click', '.fa-bars', function()
+		{
+
+			if(navPanel.hasClass('navPanel'))
+			{
+
+				navPanel.attr('id', 'navPanel');
+				console.log(navPanel);
+				navPanel.parent().css('z-index', 3);
+				navPanelContent.css('display', 'block');
+				navMenu.addClass('responsive');
+			}
+
+			$(document).on('click', '.close', function()
+			{
+				if(navPanel.attr('id') === 'navPanel')
+				{
+					navPanel.attr('id', '');
+					navPanelContent.css('display', 'none');
+					navMenu.removeClass('responsive');
+					navPanel.parent().css('z-index', 1);
+				}
+			});
+
+			var oldWidth = $(window).width();
+			$(window).resize(function()
+			{
+				if($(window).width() > oldWidth)
+				{
+					navPanelContent.css('display', 'none');
+				}
+			});
+		});
+
+		$(document).on('mouseover', '#search-icon', function()
+		{
+			$('#search-bar').removeClass('hide');
+			$('#search-bar').addClass('show');
+		});
+
+		
+		$(document).on('mouseenter', '#nav-menu > ul > li', function()
+		{
+			var el = $(this);
+			el.removeClass('no-active-arrow').addClass('active-arrow');
+		});
+
+		$(document).on('mouseleave', '#nav-menu > ul > li', function()
+		{
+			var el = $(this);
+			el.removeClass('active-arrow').addClass('no-active-arrow');
+		});
+
+		
+		if($(window).width() <= 964)
+		{
+			var menu = $('#nav-menu');
+			var el = menu.children('ul').children('li');
+			var iMax = el.length;
+			$.each(el, function(index, value)
+			{			
+				if(index === (iMax - 1) )
+				{
+					$(value).css('margin-bottom', 100);
+				}
+			});
+
+
+			//css pour la balise <center> et <iframe> lorsqu'une vidéo est présente dans l'article
+			var divIFrame = $(".textearticle").children("center");
+			divIFrame.css('position', 'relative');
+			divIFrame.children('iframe').css('position', 'relative').css('width', '100%')
+
+		}
+		else 
+		{
+			var menu = $('#nav-menu');
+			var el = menu.children('ul').children('li');
+			var iMax = el.length;
+			$.each(el, function(index, value)
+			{			
+				if(index === (iMax - 1) )
+				{
+					$(value).css('margin-bottom', 0);
+				}
+			});
+		}
+
+
+	});
+</script>
+	<div id="Slick-slider">
+			<ul class="S-slider">
+				
+				<li>
+					<a href="#1" title="Donation"><img class='spip_logo spip_logos' alt='Donation' src="#" width='960' height='360' title='Donation' /></a>
+					<div class="slick-caption">
+						<span><a href="#1" title="Donation">Donation</a></span>
+					</div>
+				</li>
+				
+				<li>
+					<a href="#" title="#"><img class='spip_logo spip_logos' alt='#' src="" width='960' height='360' title='#' /></a>
+					<div class="slick-caption">
+						<span><a href="#" title="#">A venir</a></span>
+					</div>
+				</li>
+				
+				<li>
+					<a href="#" title="#"><img class='spip_logo spip_logos' alt='#' src="" width='960' height='360' title='#' /></a>
+					<div class="slick-caption">
+						<span><a href="#" title="#">A venir</a></span>
+					</div>
+				</li>
+				
+				<li>
+					<a href="#" title="#"><img class='spip_logo spip_logos' alt='#' src="" width='960' height='360' title='#' /></a>
+					<div class="slick-caption">
+						<span><a href="#" title="#">A venir</a></span>
+					</div>
+				</li>
+				
+			</ul>
+		<div class="slider-controls">
+		</div>
+</div>
+	<div id="encemoment">
+
+		<!-- En ce moment -->
+		
+		<div class="conteneur">
+			<div class="col-12">
+				<h3 class="bandeau">En ce moment</h3>
+			</div>
+			
+			<div class="col-6">
+				<div class="imgbloc encemoment">
+					<a href="#"><img class='spip_logo spip_logos' alt='#' src="" width='450' height='200' /></a>
+					<div class="legende">
+					<div class="titre"><a href="#">#</a></div>
+					<div class="soustitre"></div>
+					<div class="descriptif"><p>> #</p></div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-6">
+				<div class="imgbloc encemoment">
+					<a href="#"><img class='spip_logo spip_logos' alt='#' src="" width='450' height='200' /></a>
+					<div class="legende">
+					<div class="titre"><a href="#">A venir</a></div>
+					<div class="soustitre"></div>
+					<div class="descriptif"><p>> A venir</p></div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		
+	</div>
+	<div id="publicationvideotheque">
+		<!-- Publication & Videotheque -->
+		<div class="conteneur">
+			<!-- Publication -->
+			
+			<div class="col-6" id="publication">
+				<h3 class="bandeau">Publications</h3>
+				
+				<div class="imgbloc publication">
+					<a href="#"><img class='spip_logo spip_logos' alt='' src="" width='250' height='360' /></a>
+					<div class="legende">
+					<div class="titre"><a href="#"></a></div>
+					<div class="soustitre"></div>
+					<div class="descriptif"><p></p></div>
+					</div>
+				</div>
+				
+			</div>
+			
+		
+			<!-- Videotheque -->
+			
+			<div class="col-6" id="videotheque">
+				<h3 class="bandeau">Vidéothèque</h3>
+				
+				<div class="imgbloc videotheque">
+					<a href="" title=""><img class='spip_logo spip_logos' alt='' src="" width='450' height='250' /></a>
+				</div>
+				
+				<div class="imgbloc videothequemini">
+				
+					<a href="" title=""><img class='spip_logo spip_logos' alt='' src="" width='225' height='100' /></a>
+				
+					<a href="" title=""><img class='spip_logo spip_logos' alt='' src="" width='225' height='100' /></a>
+				
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<div id="en1clic">
+		<!-- En 1 clic -->
+		
+		<div class="conteneur">
+			<div class="col-12">
+				<h3 class="bandeau">En un clic</h3>
+			</div>
+			
+			<div class="col-4">
+				<div class="imgbloc en1clic">
+					<a href=""><img class='spip_logo spip_logos' alt='' src="" width='300' height='300' /></a>
+					<div class="legende">
+					<div class="titre"><a href="">A venir</a></div>
+					<div class="soustitre"></div>
+					<div class="descriptif"><p>A venir</p></div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-4">
+				<div class="imgbloc en1clic">
+					<a href="Formulaires"><img class='spip_logo spip_logos' alt='Formulaires' src="local/img/d81c745899083ae59dd761acf931ca.png?1600702122" width='300' height='300' /></a>
+					<div class="legende">
+					<div class="titre"><a href="Formulaires">Formulaires</a></div>
+					<div class="soustitre"></div>
+					<div class="descriptif"><p>Trouver par thème les formulaires dont vous avez besoin...</p></div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-4">
+				<div class="imgbloc en1clic">
+					<a href="Pres-de-chez-vous"><img class='spip_logo spip_logos' alt='Pr&#232;s de chez vous' src="local/img/7a04bcc317254105628e8fa0592b38.png?1600702122" width='300' height='300' /></a>
+					<div class="legende">
+					<div class="titre"><a href="Pres-de-chez-vous">Près de chez vous</a></div>
+					<div class="soustitre"><a href="Pres-de-chez-vous">Cartographie</a></div>
+					<div class="descriptif"><p>Santé, tourisme, solidarité, culture... Tous les services autour de chez vous.</p></div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		
+	</div>
+
+	<div id="enligne">
+		<!-- En ligne avec mon pays -->
+		
+			<div class="conteneur">
+				<div class="col-12">
+					<h3 class="bandeau">En ligne avec mon pays</h3>
+				</div>
+				<div class="S-slider-2">
+					
+							<div class="slide">
+								<div class="imgbloc enligne">
+									<div class="logo"><a href=""><img class='spip_logo spip_logos' alt="" src="" width='320' height='175' /></a></div>
+									<div class="titre"><a href="">A venir</a></div>
+									<div class="soustitre"></div>
+			                    	<div class="descriptif"></div>
+			                    </div>
+			                </div>
+					
+							<div class="slide">
+								<div class="imgbloc enligne">
+									<div class="logo"><a href=""><img class='spip_logo spip_logos' alt="" src="" width='320' height='176' /></a></div>
+									<div class="titre"><a href="">A venir</a></div>
+									<div class="soustitre"></div>
+			                    	<div class="descriptif"></div>
+			                    </div>
+			                </div>
+					
+							<div class="slide">
+								<div class="imgbloc enligne">
+									<div class="logo"><a href=""><img class='spip_logo spip_logos' alt="" src="" width='320' height='179' /></a></div>
+									<div class="titre"><a href="">A venir</a></div>
+									<div class="soustitre"></div>
+			                    	<div class="descriptif"></div>
+			                    </div>
+			                </div>
+					
+							<div class="slide">
+								<div class="imgbloc enligne">
+									<div class="logo"><a href=""><img class='spip_logo spip_logos' alt="" src="" width='320' height='179' /></a></div>
+									<div class="titre"><a href="">A venir</a></div>
+									<div class="soustitre"></div>
+			                    	<div class="descriptif"></div>
+			                    </div>
+			                </div>
+					
+							<div class="slide">
+								<div class="imgbloc enligne">
+									<div class="logo"><a href=""><img class='spip_logo spip_logos' alt="" src="" width='320' height='179' /></a></div>
+									<div class="titre"><a href="">A venir</a></div>
+									<div class="soustitre"></div>
+			                    	<div class="descriptif"></div>
+			                    </div>
+			                </div>
+					
+							<div class="slide">
+								<div class="imgbloc enligne">
+									<div class="logo"><a href=""><img class='spip_logo spip_logos' alt="" src="" width='320' height='179' /></a></div>
+									<div class="titre"><a href="">A venir</a></div>
+									<div class="soustitre"></div>
+			                    	<div class="descriptif"></div>
+			                    </div>
+			                </div>	
+				</div>
+
+				<div class="slider-controls-two">
+				</div>
+			</div>
+		
+	</div>
+
+	<script>
+		$(document).ready(function()
+		{
+			$('.S-slider').slick({
+				  adaptiveHeight:true,
+				  autoplay:true,
+				  autoplaySpeed:4000,
+				  dots: true,
+				  infinite: true,
+				  speed: 500,
+				  fade: true,
+				  appendArrows:$('.slider-controls'),
+				  prevArrow:'<a class="prev-control slick-prev slick-arrow" href=""></a>',
+				  nextArrow:'<a class="next-control slick-next slick-arrow" href=""></a>',
+				  customPaging: function(slider, i) {
+				  	var cSlide = slider.$slides[i],
+				  	title = $(cSlide).find('img:first').attr('title'),
+				  	link_pager = '<div class="link-pager"><a>'+title+'</a></div>'
+				  	link_sep = '<div class="link-separator"><img src="squelettes/files/img/pics/Slider/separator-pager.png" alt="separator" /></div>';
+				  	return link_pager + link_sep;
+				  }
+				});
+
+			$('.S-slider-2').slick({
+				  autoplay:true,
+				  autoplaySpeed:4000,
+				  infinite: true,
+				  slidesToShow: 4,
+				  slidesToScroll: 4,
+				  dots:true,
+				  appendArrows:$('.slider-controls-two'),
+				  prevArrow:'<a class="prev-control slick-prev slick-arrow" href=""></a>',
+				  nextArrow:'<a class="next-control slick-next slick-arrow" href=""></a>'
+				});
+		});
+	</script>
+
+	<div id="footer">
+	<div class="conteneur">
+	
+		<div class="col-3">
+			<h3 class="spip">Informations</h3>
+<p>Lycée Notre Dame<br class='autobr' />
+85300 Challans <br class='autobr' />
+Accueil&nbsp;: Heure : ?</p>
+<p>Téléphone&nbsp;: <a href="">A venir</a></p>
+		</div>
+	
+		<div class="col-3">
+			<h3 class="spip">Divers</h3>
+<p><img src="squelettes-dist/puce.gif" width="8" height="11" class="puce" alt="-" />&nbsp;<a href="spip.php?page=contact">Contact par formulaire</a>
+<br /><img src="squelettes-dist/puce.gif" width="8" height="11" class="puce" alt="-" />&nbsp;<a href="" class='spip_in'>Mentions légales</a>
+<br /><img src="squelettes-dist/puce.gif" width="8" height="11" class="puce" alt="-" />&nbsp;<a href="" class='spip_in'>Nos logos</a>
+<br /><img src="squelettes-dist/puce.gif" width="8" height="11" class="puce" alt="-" />&nbsp;<a href="">Plan du site</a></p>
+		</div>
+	
+	<div class="col-3">
+		<h3 class="spip">Rubriques</h3>
+<p><img src="squelettes-dist/puce.gif" width="8" height="11" class="puce" alt="-" />&nbsp;<a href="Accueil.html" class='spip_out' rel='external'>Accueil</a>
+<br /><img src="squelettes-dist/puce.gif" width="8" height="11" class="puce" alt="-" />&nbsp;<a href="Immigration.html" class='spip_out' rel='external'>Immigration</a>
+<br /><img src="squelettes-dist/puce.gif" width="8" height="11" class="puce" alt="-" />&nbsp;<a href="Economie.html" class='spip_out' rel='external'>Economie</a>
+<br /><img src="squelettes-dist/puce.gif" width="8" height="11" class="puce" alt="-" />&nbsp;<a href="Defense.html" class='spip_out' rel='external'>Défense</a>
+<br /><img src="squelettes-dist/puce.gif" width="8" height="11" class="puce" alt="-" />&nbsp;<a href="Ecologie.html" class='spip_out' rel='external'>Ecologie</a>
+<br /><img src="squelettes-dist/puce.gif" width="8" height="11" class="puce" alt="-" />&nbsp;<a href="Education.html" class='spip_out' rel='external'>Education</a></p>
+	</div>
+        
+	
+		<div class="col-3">
+			<h3 class="spip">Suivre le Rassemblment National</h3>
+<p><img src="squelettes-dist/puce.gif" width="8" height="11" class="puce" alt="-" />&nbsp;<a href="" class='spip_out' rel='external'>Youtube</a>
+<br /><img src="squelettes-dist/puce.gif" width="8" height="11" class="puce" alt="-" />&nbsp;<a href="" class='spip_out' rel='external'>Facebook</a>
+<br /><img src="squelettes-dist/puce.gif" width="8" height="11" class="puce" alt="-" />&nbsp;<a href="" class='spip_out' rel='external'>Instagram</a>
+<br /><img src="squelettes-dist/puce.gif" width="8" height="11" class="puce" alt="-" />&nbsp;<a href="" class='spip_out' rel='external'>Linkedin</a>
+<br /><img src="squelettes-dist/puce.gif" width="8" height="11" class="puce" alt="-" />&nbsp;<a href="" class='spip_out' rel='external'>Twitter</a></p>
+		</div>
+	
+	</div>
+</div>	<script type="text/javascript" src="squelettes/files/js/slick/jquery.slick.customPager.min.js"></script></body>
+</html>

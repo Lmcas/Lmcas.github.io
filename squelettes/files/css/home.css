@@ -1,0 +1,184 @@
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = */
+/* --------------------------------------------
+	CSS du contenu de la page d'accueil
+-------------------------------------------- */
+
+#encemoment {
+	background-image: url(../img/pics/background-container-home.png);
+	background-color: #093e72;
+	padding-bottom: 50px;
+	background-size: cover;
+}
+
+#publicationvideotheque {
+	background-color: #062a4e;
+	background-image: url(../img/pics/background-footer.png);
+	padding-bottom: 50px;
+}
+
+#en1clic {
+	background-image: url(../img/pics/background-container-home-inv.png);
+	background-color: #093e72;
+	padding-bottom: 50px;
+	background-size: cover;
+}
+
+#enligne {
+	background-color: #0054a5;
+	padding-bottom: 50px;
+	position:relative;
+}
+
+#enligne .pages {
+margin-top: 19px;
+display: block;
+margin-left: 50px;
+color: white;
+}
+#enligne .pages a{
+color: white;
+}
+
+.imgbloc {
+	margin-left: 42px;
+	color: white;
+}
+
+.imgbloc a {
+	color: white;
+	text-decoration: none;
+}
+
+.imgbloc img {
+	border: 1px solid #678CB1;
+	width: 90%;
+	height: auto;
+}
+
+.imgbloc img:hover {
+	-moz-box-shadow: 0 0 10px #000;
+	-webkit-box-shadow: 0 0 10px #000;
+	box-shadow: 0 0 10px #000;
+}
+
+.imgbloc .titre,
+.imgbloc .soustitre,
+.imgbloc .descriptif {
+	font-family: Arial, Serif;
+}
+
+.imgbloc .titre {
+	font-size: 110%;
+}
+
+.imgbloc .soustitre {
+	font-size: 100%;
+}
+
+.imgbloc .descriptif p {
+	font-size: 90%;
+	margin: 0;
+}
+
+.publication img {
+	border: 2px solid #fff;
+	width: 49%;
+	height: auto;
+	float: left;
+}
+
+.publication .legende {
+	float: left;
+	width: 49%;
+	padding-left: 0.1%;
+	font-family: Arial, Serif;
+}
+
+.publication .titre {
+	margin: 10px;
+}
+
+.publication .soustitre,
+.publication .descriptif {
+	margin-left: 10px;
+}
+
+.conteneur>div>.col-6 {
+	float: left;
+	margin-right: -20px;
+	width: 49.5%;
+}
+
+.conteneur>div>.col-6 .imgbloc img {}
+
+.bandeau {
+	background-image: url(../img/pics/bandeau-titre.png);
+	background-repeat: no-repeat;
+	padding-left: 40px;
+	color: #E4DDD9;
+}
+
+.bandeau > a{
+	color: white;
+	text-decoration:none;
+}
+
+#enligne .bandeau {
+	background-image: url(../img/pics/bandeau-titre-dark.png);
+	background-repeat: no-repeat;
+	padding-left: 40px;
+	color: white;
+}
+
+.videothequemini img {
+	width: 44%;
+}
+
+/******************************************************************************************************/
+		/*# *** Partie Responsive *** */
+
+/* #
+**** Ecran de taille maximum 1680 pixel
+*/
+@media screen and (max-width: 1680px) {
+
+}
+
+/* #
+**** Ecran de taille maximum 1280 pixel
+*/
+@media screen and (max-width: 1280px) {
+	
+}
+
+
+/* #
+**** Ecran de taille maximum 980 pixel
+*/
+@media screen and (max-width: 980px) {
+
+}
+
+
+/* #
+**** Ecran de taille maximum 736 pixel
+*/
+@media screen and (max-width: 736px) {
+	
+}
+
+
+/* #
+**** Ecran de taille maximum 480 pixel
+*/
+@media screen and (max-width: 480px) {
+	
+}
+
+
+/* #
+**** Ecran de taille maximum 360 pixel
+*/
+@media screen and (max-width: 360px) {
+	
+}

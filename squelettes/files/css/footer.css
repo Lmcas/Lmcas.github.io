@@ -1,0 +1,78 @@
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = */
+/* --------------------------------------------
+	CSS du pied de page
+-------------------------------------------- */
+
+footer,
+#footer {
+	background-color: #092B4E;
+	background-image: url(../img/pics/background-footer.png);
+	color: #BFD4E9;
+	font-family: Arial, Serif;
+	font-size: 0.8em;
+	padding-top: 1em;
+}
+
+footer h3,
+#footer h3 {
+	color: #5E9FE0;
+}
+
+footer a,
+#footer a {
+	color: #EDEDED;
+	text-decoration: none;
+}
+
+/******************************************************************************************************/
+		/*# *** Partie Responsive *** */
+
+/* #
+**** Ecran de taille maximum 1680 pixel
+*/
+@media screen and (max-width: 1680px) {
+
+}
+
+/* #
+**** Ecran de taille maximum 1280 pixel
+*/
+@media screen and (max-width: 1280px) {
+	
+}
+
+
+/* #
+**** Ecran de taille maximum 980 pixel
+*/
+@media screen and (max-width: 980px) {
+	footer,
+	#footer {
+		font-size: 0.9em;
+		text-align: center;
+	}
+}
+
+
+/* #
+**** Ecran de taille maximum 736 pixel
+*/
+@media screen and (max-width: 736px) {
+	
+}
+
+
+/* #
+**** Ecran de taille maximum 480 pixel
+*/
+@media screen and (max-width: 480px) {
+	
+}
+
+
+/* #
+**** Ecran de taille maximum 360 pixel
+*/
+@media screen and (max-width: 360px) {
+	
+}

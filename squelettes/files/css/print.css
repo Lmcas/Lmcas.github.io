@@ -1,0 +1,3 @@
+#header, #footer, .conteneur:not(.article):not(.rubrique), #spip-admin, .infos{
+	display:none;
+}

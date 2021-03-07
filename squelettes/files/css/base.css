@@ -1,0 +1,645 @@
+/* Référenciel couleurs
+Bleu très clair : BFD4E9
+Bleu clair : 0054A5
+Bleu normal : 093E72
+Bleu foncé : 092B4E
+Blanc polices : FFFFFF
+Noir polices : 0C1B2E
+gris clair : 688199
+vert logo : 2DAD27;
+*/
+
+@-webkit-viewport{
+    width: device-width;
+    zoom: 1; 
+}
+@-moz-viewport{
+    width: device-width;
+    zoom: 1; 
+}
+@-ms-viewport{
+    width: device-width;
+    zoom: 1; 
+}
+@-o-viewport{
+    width: device-width;
+    zoom: 1; 
+}
+@viewport{
+    width: device-width;
+    zoom: 1; 
+}
+
+
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = */
+/* -----------------------------
+	CSS général
+----------------------------- */
+
+html {
+	font-family: 'OpenSans', Arial, Serif;
+}
+
+body {
+	margin: 0;
+	overflow-x: hidden;
+}
+
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = */
+/* --------------------------------------------
+	CSS des outils de la page article
+-------------------------------------------- */
+#outils{
+	position: relative;
+	margin-top: 5px;
+}
+
+#outils img{
+	cursor:pointer;
+	margin: 0px 2px;
+}
+
+#outils > div:not(#share_social_network) {
+	float: right;
+/*	background-color: white;*/
+	padding: 2px 12px;
+}
+
+#zoom_less{
+	width: 16px;
+}
+
+#outils a{
+	text-decoration: none;
+}
+
+.ico_help{
+	width:20px;
+}
+
+#share_social_network{
+	display:none;
+	position: relative;
+	top: 13px;
+	float: right;
+	background-color: white;
+	border-radius: 5px;
+	padding: 4px 5px;
+	right: 8%;
+}
+
+#bubble-queue{
+	width: 20px;
+	position: absolute;
+	bottom: 95%;
+	right: 50%;
+}
+
+
+
+
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = */
+/* --------------------------------------------
+	CSS du fil d'ariane
+-------------------------------------------- */
+#container > .infos {
+	padding:20px 0px;
+}
+
+#ariane {
+	font-family: Arial, Serif;
+	font-size: 78%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+#ariane a {
+	color: white;
+}
+
+#container {
+	background-image: url(../img/pics/background-container.png);
+	background-color: #093e72;
+	color: #c7d6e4;
+	background-size: cover;
+}
+
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = */
+/* --------------------------------------------
+	CSS des pages des articles
+-------------------------------------------- */
+
+.article {
+	background-color: white;
+/*	font-family: Arial, Serif;*/
+	padding-bottom: 4em;
+	background-image: url(../img/pics/background-article.png);
+}
+
+.article a {
+color : #CC4225;
+}
+
+.article .contenu .spip_logo {
+	width: 100%;
+	height: 100%;
+}
+
+.article .datearticle {
+	margin-top: 10px;
+	color: #688199;
+	padding: 0 0 0 0.5em;
+	font-size: 78%;
+}
+
+.article .titrearticle {
+	font-family: 'OpenSans', Arial, Serif;
+	color: #0C1B2E;
+	padding: 0 0 0 0.1em;
+}
+
+.articles .titrearticle, .articles .titrerubriques {
+	font-family: Arial, Serif;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	margin-bottom: 1em;
+	min-height: 60px;
+}
+
+.article .soustitrearticle {
+	color: #093E72;
+	padding: 0 0 0 0.5em;
+}
+
+.article .descriptifarticle {
+	color: #093E72;
+	padding: 0 0 0 1em;
+	border-left: solid 3px #0054A5;
+	margin-left: 1em;
+	font-weight: bold;
+	font-size: 80%;
+}
+
+.articles .logoarticle {
+	padding-left: 40px;
+}
+
+.articles .logoarticle img {
+	border: 1px solid #fff;
+	width: 100%;
+	height: 100%;
+}
+
+.article .textearticle {
+	color: #093E72;
+	padding: 0px 1em 0px 1em;
+	font-size: 90%;
+	line-height: 1.5em;
+}
+
+.article .textearticle h3 {
+	font-family: 'OpenSans', Arial, Serif;
+	margin-top: 1.8em;
+	font-size: 150%;
+	margin-bottom: 0.8em;
+}
+
+.article .textearticle table.spip tr.row_first {
+background-color: rgb(234, 234, 234);
+}
+.article .textearticle table.spip tr.row_odd {
+background-color: #99ccff;
+}
+
+.article .textearticle table.spip tr.row_even {
+background-color: #E5EDF6;
+}
+
+.article ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.article li {
+	padding-left: 16px;
+}
+
+.article li:before {
+	content: "\25C9";
+	font-size: 1em;
+	padding-right: 0.8em;
+	color: #0053A7;
+	font-weight: bold;
+}
+
+.article .exergue, .rubrique .exergue {
+	background-color: #BFD4E9;
+	background-color: #EAEAEA;
+	border: solid 1px #0054A5;
+	border: solid 1px #D7D7D7;
+	color: #0054A5;
+	padding: 10px 10px 10px 60px;
+	padding: 20px 10px 20px 60px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-right: 25%;
+}
+
+.article .exergue a:link, .rubrique .exergue a:link,
+.article .exergue a:visited, .rubrique .exergue a:visited,
+.article .exergue a:hover, .rubrique .exergue a:hover {
+	color: #CC4225;
+}
+
+.article .exergue.formulaire a:visited,
+.article .exergue.formulaire a:hover,
+.article .exergue.formulaire a:link
+ {
+	color: #0054A5;
+}
+
+.article .exergue h3, .rubrique .exergue h3 {
+	color:#062A4E;
+	font-size: 0.9em;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	border-top: solid 0px #0054A5;
+}
+
+.article .exergue h3 a, .rubrique .exergue h3 a {
+	color: #0054A5;
+}
+
+.article .exergue .desc , .rubrique .exergue .desc {
+	font-size: 1em;
+}
+
+.article .exergue.aide, .rubrique .exergue.aide {
+	background-image: url(../img/pics/exergue_aide.png);
+	background-repeat: no-repeat;
+	background-position: 10px 50%;
+}
+
+.article .exergue.carto, .rubrique .exergue.carto {
+	background-image: url(../img/pics/exergue_carto.png);
+	background-repeat: no-repeat;
+	background-position: 10px 50%;
+}
+
+.article .exergue.formulaire, .rubrique .exergue.formulaire {
+	background-image: url(../img/pics/exergue_form.png);
+	background-repeat: no-repeat;
+	background-position: 10px 50%;
+	background-color: #FFA500;
+}
+
+.article .exergue.web, .rubrique .exergue.web {
+	background-image: url(../img/pics/exergue_web.png);
+	background-repeat: no-repeat;
+	background-position: 10px 50%;
+}
+
+.article .exergue.zoom, .rubrique .exergue.zoom {
+	background-image: url(../img/pics/exergue_zoom.png);
+	background-repeat: no-repeat;
+	background-position: 10px 50%;
+}
+
+.article .exergue.contact, .rubrique .exergue.contact {
+	background-image: url(../img/pics/exergue_contact.png);
+	background-repeat: no-repeat;
+	background-position: 10px 50%;
+}
+
+.article .documents,
+.article .documents a {
+	color: black;
+}
+
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = */
+/* --------------------------------------------
+	CSS des pages des rubriques
+-------------------------------------------- */
+
+.rubrique,
+.rubriques {
+	background-color: #062A4E;
+	/*padding-bottom: 4em;*/
+}
+
+.rubrique .spip_logo {
+	width: 100%;
+	height: 100%;
+}
+
+.rubrique .texterubrique {
+/*	font-family: Arial, Serif;*/
+	padding: 0px 1em 0px 1em;
+	font-size: 90%;
+	line-height: 1.5em;
+}
+
+.rubriques .logorubrique {
+	padding-left: 40px;
+}
+
+.rubriques .logorubrique img {
+	border: 1px solid #fff;
+	width: 100%;
+	height: 100%;
+}
+
+.rubriques {
+	padding-bottom: 50px;
+}
+
+.rubriques .nologo{
+	margin-bottom:30px;
+}
+
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = */
+/* --------------------------------------------
+	CSS des mots-cles associés aux rubriques et articles
+-------------------------------------------- */
+
+#keywords {
+	margin-bottom: 15px;
+}
+
+.keyword {
+	background-color: #0054A5;
+	font-family: Arial, Serif;
+	font-size: 80%;
+	padding: 10px;
+}
+
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = */
+/* --------------------------------------------
+	CSS de la page de recherche
+-------------------------------------------- */
+
+.recherche {
+	background-color: white;
+	font-family: Arial, Serif;
+	padding-bottom: 4em;
+	color: #0C1B2E;
+}
+
+.recherche h1 {
+	font-family: 'OpenSans', Arial, Serif;
+	color: #0C1B2E;
+	padding: 0 0 0 0.1em;
+}
+
+.recherche ul {
+	color: #0C1B2E;
+	font-size: 90%;
+	line-height: 1.5em;
+}
+
+.recherche ul li a {
+	text-decoration: none;
+	color: #0C1B2E;
+}
+
+.recherche ul li .date {
+	font-style: italic;
+	font-size: 90%;
+}
+
+.recherche ul li ul {
+	padding: 0;
+}
+
+.recherche ul li ul li {
+	list-style-type: none;
+}
+
+.recherche ul li ul li a .intro {
+	text-decoration: none;
+	color: #0054A5;
+}
+
+.recherche span.pages {
+	padding-left: 20px;
+}
+
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = */
+/* --------------------------------------------
+	CSS de la grille
+-------------------------------------------- */
+
+
+.conteneur {
+	clear: both;
+	width: 960px;
+	margin: 0px auto;
+	overflow: auto;
+}
+
+.conteneur>div {
+	float: left;
+	margin: 0 0.5%;
+}
+
+.col-1 {
+	width: 7.3%;
+}
+
+.col-2 {
+	width: 15.6%;
+}
+
+.col-3 {
+	width: 24%;
+}
+
+.col-4 {
+	width: 32.3%;
+}
+
+.col-5 {
+	width: 40.6%;
+}
+
+.col-6 {
+	width: 49%;
+}
+
+.col-7 {
+	width: 57.3%;
+}
+
+.col-8 {
+	width: 65.6%;
+}
+
+.col-9 {
+	width: 74%;
+}
+
+.col-10 {
+	width: 82.3%;
+}
+
+.col-11 {
+	width: 90.6%;
+}
+
+.col-12 {
+	width: 99%;
+}
+
+.w-80{
+	width:79%;
+}
+
+.w-20{
+	width:19%;
+}
+
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = */
+/* --------------------------------------------
+	CSS de la partie en ligne avec mon Pays
+-------------------------------------------- */
+#enligne .conteneur{
+	overflow:hidden;
+	margin: 0px;
+	width: 100%;
+}
+
+#enligne .conteneur > div{
+	margin: 0px auto;
+	float: none;
+}
+
+#enligne .conteneur > .col-12{
+	width: 1000px;
+}
+
+#enligne .conteneur > .bx-wrapper{
+	width: 100%;
+}
+
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = */
+/* --------------------------------------------
+	CSS de la page contact
+-------------------------------------------- */
+.contact #formulaire_ecrire_auteur_1  .editer-groupe .editer textarea{
+	width:100%;
+}
+
+
+
+/******************************************************************************************************/
+		/*# *** Partie Responsive *** */
+
+/* #
+**** Ecran de taille maximum 1680 pixel
+*/
+@media screen and (max-width: 1680px) {
+
+}
+
+/* #
+**** Ecran de taille maximum 1280 pixel
+*/
+@media screen and (max-width: 1280px) {
+	
+}
+
+
+/* #
+**** Ecran de taille maximum 980 pixel
+*/
+@media screen and (max-width: 980px) {
+	#container {
+		position:relative;
+	}
+	.col-6 {
+	    width: 38%;
+	}
+	.col-4 {
+	    width: 24%;
+	}
+}
+
+
+/* #
+**** Ecran de taille maximum 736 pixel
+*/
+@media screen and (max-width: 736px) {
+	.conteneur {
+		width: 100%;
+	}
+
+	.imgbloc, #publication{
+		margin-bottom: 10%;
+	}
+
+	.conteneur>div {
+		margin: 0 1%;
+	}
+	.col-1,
+	.col-2,
+	.col-3,
+	.col-4,
+	.col-5,
+	.col-6,
+	.col-7,
+	.col-8,
+	.col-9,
+	.col-10,
+	.col-11,
+	.col-12 {
+		width: 98%;
+		float: none;
+	}
+
+	#outils #zoom_less, #outils #zoom_more , #outils  #print_page, #outils #mailer{
+		display:none;
+	}
+}
+
+
+/* #
+**** Ecran de taille maximum 480 pixel
+*/
+@media screen and (max-width: 480px) {
+
+	.conteneur .titrerubrique {
+		font-size: 24px;
+	}
+
+	.rubriques .logorubrique {
+	    padding: 0px 18px;
+	}
+
+	.textarticle iframe {
+		position: relative;
+		width: 100%;
+	}
+}
+
+
+/* #
+**** Ecran de taille maximum 360 pixel
+*/
+@media screen and (max-width: 360px) {
+	.col-1,
+	.col-2,
+	.col-3,
+	.col-4,
+	.col-5,
+	.col-6,
+	.col-7,
+	.col-8,
+	.col-9,
+	.col-10,
+	.col-11,
+	.col-12 {
+		display:block;
+	}
+}
