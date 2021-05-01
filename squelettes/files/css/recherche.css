@@ -12,7 +12,7 @@
 	position: absolute;
 	top: 40px;
 	right: 0px;
-	background-image: url("../img/icon/loupe_responsive.png");
+	background-image: url("loupe_responsive.png");
 	background-repeat: no-repeat;
 	width: 250px;
 	height: 50px;
@@ -66,7 +66,7 @@ div#search-bar:hover {
 	    position: absolute;
 	    top: 48px;
 	    right: 0px;
-	    background-image: url("../img/icon/loupe_responsive.png");
+		background-image: url('../img/icon/loupe_responsive.png');
 	    background-repeat: no-repeat;
 	    width: 50px;
 	    height: 43px;

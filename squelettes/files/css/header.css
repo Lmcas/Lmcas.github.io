@@ -21,6 +21,11 @@
 	font-size:22px;
 }
 
+#logoRn {
+	width: 200px;
+	height: 200px;
+}
+
 .logo {
 	display: block;
 	float: left;
