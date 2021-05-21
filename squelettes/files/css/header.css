@@ -117,12 +117,17 @@
 		text-align: center;
 		margin-left: 0;
 	}
+	
+	#logoRn {
+		height: 100px;
+		width: 100px;
+	}
 
 	#description_site {
 		margin-top: 20px;
 		font-size:19px;	
 		display: block;
-		text-align: center;
+		text-align: left;
 	}
 
 	#social-container {
